@@ -26,7 +26,7 @@ function App (props) {
     
     let routes = (  
         <Switch>
-            <Route path='/react/demo/ecom-product-list' component={Login} />
+            <Route path='/login' component={Login} />
             <Route path='/page-register' component={SignUp} />
             <Route path='/page-forgot-password' component={ForgotPassword} />
         </Switch>

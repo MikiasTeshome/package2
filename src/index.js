@@ -14,7 +14,7 @@ ReactDOM.render(
     <React.StrictMode>
         <Provider store = {store}>
             <SimpleReactLightbox>
-                <BrowserRouter basename='/react/demo/ecom-product-list'>
+                <BrowserRouter basename='/react/demo'>
                     <ThemeContext>
                         <App />
                     </ThemeContext>  
